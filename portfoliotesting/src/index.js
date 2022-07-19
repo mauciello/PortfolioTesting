@@ -6,7 +6,7 @@ import PortfolioShowcase from './Pages/PortfolioShowcase.js';
 import reportWebVitals from './reportWebVitals';
 import NavBarComponent from './Components/navBarComponent';
 import {
-    BrowserRouter,
+    HashRouter,
     Routes,
     Route
 } from "react-router-dom";
@@ -14,13 +14,13 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
         <NavBarComponent />
         <Routes>
             <Route exact path="/" element={<App />} />
             <Route exact path="/Portfolio" element={<PortfolioShowcase />} />
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
