@@ -34,5 +34,4 @@ function ShowCaseButton(props){
     </Card>
 	);
 }
-
 export default ShowCaseButton;

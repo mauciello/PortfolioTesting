@@ -37,7 +37,7 @@ function PortfolioShowcase() {
 
     return (
     <div className="App">
-        <h1>
+        <h1 class="header1">
         Portafolio
         </h1>
         <Grid container spacing={2}>
